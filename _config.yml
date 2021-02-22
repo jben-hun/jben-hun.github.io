@@ -64,6 +64,3 @@ plugins:
  - jekyll-paginate
 
 paginate: 5
-
-# markdown: kramdown
-# mathjax: true
