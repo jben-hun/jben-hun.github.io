@@ -22,12 +22,13 @@ main {
 }
 
 main>div.wrapper {
+    min-width: 0;
     background-color: $background-color;
     padding-top: $spacing-unit;
     padding-bottom: $spacing-unit;
     border-left: 1px solid $border-color-01;
     border-right: 1px solid $border-color-01;
-    flex: 1 0 auto;
+    flex: 1;
     display: flex;
     flex-direction: column;
 }
@@ -46,6 +47,11 @@ header a {
 
 .post-link-title {
     margin-bottom: 0;
+}
+
+.pager-edge {
+    color: $text-color !important;
+    border: 1px solid $brand-color-light !important;
 }
 
 .contact-list .p-name {

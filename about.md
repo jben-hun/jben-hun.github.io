@@ -1,11 +1,14 @@
 ---
 layout: page
-title: Where am I?
+# title: Where am I?
+title: INFO
 permalink: /info/
 ---
 
-Runnable notebooks hosted on Google Colaboratory and GitHub about interesting stuff, mostly algorithms, data analysis and machine learning.
+Runnable IPython Notebooks hosted on Google Colaboratory and GitHub about interesting stuff, mostly algorithms, data analysis and machine learning.
 
 See the repository: <https://github.com/jben-hun/colab_notebooks>
+
+This GitHub Pages site is based on the minima jekyll theme: <https://github.com/jekyll/minima>
 
 ![png]({{ "/assets/notebook.png" | relative_url }})
