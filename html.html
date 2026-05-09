@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JBen</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #2f3739;
+            color: #e7e7e7;
+            display: flex;
+            flex-direction: column;
+            font-family: Inter, Helvetica, Arial, sans-serif;
+            line-height: 1.4;
+            margin: 0;
+            min-height: 100vh;
+            padding: 48px 48px 0 48px;
+        }
+
+        .profile {
+            align-items: center;
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            margin-bottom: 24px;
+        }
+
+        .profile h1 {
+            text-shadow: 0 0 18px rgba(0, 0, 0, 0.75);
+        }
+
+        .profile img {
+            border-radius: 50%;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+            height: 112px;
+            width: 112px;
+        }
+
+        .links {
+            background: #263033;
+            border-radius: 16px 16px 0 0;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            gap: 16px;
+            margin: auto;
+            max-width: 100%;
+            padding: 20px;
+            width: fit-content;
+        }
+
+        .link {
+            align-items: center;
+            background: #e7e7e7;
+            border-radius: 12px;
+            color: #2d2d2d;
+            cursor: pointer;
+            display: flex;
+            gap: 12px;
+            padding: 8px 48px 8px 8px;
+            text-decoration: none;
+            transition: transform 0.15s ease;
+        }
+
+        .link:hover {
+            transform: translateY(-2px);
+        }
+
+        .link img {
+            border-radius: 6px;
+            height: 56px;
+        }
+
+        .link span {
+            font-size: 1.05rem;
+            font-weight: 500;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="profile">
+        <img src="0.jpeg" alt="">
+        <h1>JBen</h1>
+    </div>
+    <div class="links">
+        <a class="link" href="https://moly.hu/tagok/jben">
+            <img src="images/1.jpeg" alt="">
+            <span>📷 moly.hu/tagok/jben</span>
+        </a>
+        <a class="link" href="https://letterboxd.com/jben">
+            <img src="images/2.jpeg" alt="">
+            <span>📷 letterboxd.com/jben</span>
+        </a>
+        <a class="link" href="https://moly.hu/tagok/jben">
+            <img src="images/3.jpeg" alt="">
+            <span>📚 moly.hu/tagok/jben</span>
+        </a>
+        <a class="link" href="https://letterboxd.com/jben">
+            <img src="images/4.png" alt="">
+            <span>📼 letterboxd.com/jben</span>
+        </a>
+        <a class="link" href="https://bandcamp.com/jben_hun">
+            <img src="images/5.png" alt="">
+            <span>💿 bandcamp.com/jben_hun</span>
+        </a>
+        <a class="link" href="https://steamcommunity.com/id/jben_hun">
+            <img src="images/6.jpeg" alt="">
+            <span>👾 steamcommunity.com/id/jben_hun</span>
+        </a>
+    </div>
+</body>
+
+</html>
